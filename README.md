@@ -13,6 +13,8 @@ This project was developed as part of the **IBM SkillsBuild Winter Certification
 
 ---
 
+ <img src="1520089428849.jpg" width="450"/> <img src="images.png" width="450"/>
+
 ## 🎯 Problem Statement
 
 Students and early professionals often struggle to identify appropriate career options despite having relevant skills. Traditional career guidance systems are either generic, expensive, or inaccessible, leading to confusion and poor career decisions.
