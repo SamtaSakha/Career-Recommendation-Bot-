@@ -24,6 +24,7 @@ The project focuses on simplicity, clarity, and accessibility, making career exp
    - The top matching career roles are displayed along with their skill match scores.
    - Results are presented in a clean and easy-to-understand card layout.
 
+ <img src="Screenshot 2025-12-31 212748.png" width="450"/> <img src="Screenshot 2025-12-31 212659.png" width="450"/>
 ---
 
 ## ✨ Key Features
