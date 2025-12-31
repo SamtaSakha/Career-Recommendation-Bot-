@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career Recommendation AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="main-card">
+    <h1>Career Recommendation AI 🤖</h1>
+    <p class="subtitle">
+        Discover the best career paths based on your skills
+    </p>
+
+    <form method="POST">
+        <input 
+            type="text" 
+            name="skills" 
+            placeholder="e.g. accounting, balance sheet, excel" 
+            required
+        >
+        <button type="submit">Get Career Suggestions</button>
+    </form>
+
+    {% if recommendations %}
+    <div class="results">
+        <h2>Recommended Careers</h2>
+
+        {% for career, score in recommendations %}
+        <div class="career-card">
+            <h3>{{ career }}</h3>
+            <p>Skill Match Score: <strong>{{ score }}</strong></p>
+        </div>
+        {% endfor %}
+
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
