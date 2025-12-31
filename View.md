@@ -61,7 +61,7 @@ career-recommendation-ai/
 │   └── style.css          # UI styling
 │
 └── README.md              # Project documentation
-
+```
 ---
 
 
@@ -81,5 +81,7 @@ API support for external integrations
 ## 👩‍💻 Author
 
 Samta Sakha
+
 Aspiring Data Science & AI Professional
+
 GitHub: https://github.com/SamtaSakha
